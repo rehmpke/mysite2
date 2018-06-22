@@ -1,0 +1,42 @@
+.social-sharing { text-align: center; }
+
+@media only screen and (min-width: 768px) {
+  .social-sharing.align-right { text-align: right; }
+
+  .social-sharing.align-left { text-align: left; }
+}
+
+.white.social-sharing-caption, .white.social-sharing-icon { color: $text-color; }
+
+.social-sharing-caption {
+  font-family: "Source Sans Pro", Verdana, sans-serif;
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+.social-sharing-caption.small { font-size: $base-font-size; }
+
+@media only screen and (max-width: 600px) {
+  .social-sharing-caption:not(.small) {
+    display: block;
+    width: 80%;
+    margin: 0 auto 10px auto;
+  }
+}
+
+.social-sharing-icon {
+  margin-left: 10px;
+  font-size: 34px;
+  text-decoration: none !important;
+  vertical-align: middle;
+}
+.social-sharing-icon i { vertical-align: middle; }
+
+.social-sharing-icon.small {
+  margin-left: 5px;
+  font-size: 22px;
+}
+
+.social-sharing.no-caption .social-sharing-icon:first-child { margin-left: 0; }
+
+.social-sharing.no-caption .social-sharing-icon:last-child { margin-right: 0; }

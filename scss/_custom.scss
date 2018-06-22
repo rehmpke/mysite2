@@ -1,0 +1,44 @@
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 200;
+	@media #{$medium-up} {
+	}
+	@media #{$large-up} {
+	}
+}
+
+//helper for font weight
+//Open+Sans:400,700,800|Raleway:400,200,700
+.font-light {
+	font-weight: 200;
+}
+.font-weight-normal {
+	font-weight: 400;
+}
+.font-bold {
+	font-weight: 700;
+}
+.font-heavy {
+	font-weight: 800;
+}
+
+/* my changes */
+@import "0-tools/vars";
+
+@import "1-base/typeography";
+@import "1-base/img";
+@import "1-base/buttons";
+@import "1-base/link";
+
+@import "3-layout/grid";
+@import "3-layout/header";
+@import "3-layout/footer";
+@import "3-layout/global-nav";
+@import "3-layout/right-off-canvas-menu";
+
+@import "2-modules/logo";
+@import "2-modules/socialsharing";
+@import "2-modules/mailinglist";
+
+@import "4-pages/home/hero-shot";

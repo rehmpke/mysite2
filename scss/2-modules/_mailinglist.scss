@@ -1,0 +1,100 @@
+/* @todo refactor the hell out of this */
+
+
+@media only screen and (max-width: 919px) {
+  .mailing-list .row {
+    padding-top: 10px;
+  }
+  .mailing-list .row:before {
+    top: -55px;
+    left: 50%;
+    margin-left: -30px;
+  }
+}
+
+.mailing-list {
+  padding: 25px 0;
+  font-family: "Source Sans Pro", Verdana, sans-serif;
+  color: #838078;
+  background: #fdcc52; background: -webkit-linear-gradient(#fdcc52, #fdc539); background: linear-gradient(#fdcc52, #fdc539); 
+}
+.mailing-list .row {
+  position: relative;
+}
+
+.mailing-list-headline {
+  margin-bottom: 0;
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #838078;
+}
+
+.mailing-list-caption {
+  font-size: 17px;
+  line-height: 25.5px;
+}
+
+@media only screen {
+  .mailing-list {
+    text-align: center;
+  }
+
+  .mailing-list-form {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .mailing-list-text,
+  .mailing-list-form {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .mailing-list-text {
+    float:left;
+    text-align: left;
+  }
+
+  .mailing-list-form {
+    width: 90%;
+    margin-top: 0;
+    text-align: right;
+  }
+  .mailing-list-form input {
+    display: inline-block;
+    width: auto;
+    margin: 0 0 0 10px;
+  }
+
+  .mailing-list-input {
+    min-width: 240px;
+  }
+}
+@media only screen and (max-width: 840px) {
+  .mailing-list-input {
+    min-width: 200px;
+  }
+
+  .mailing-list-headline {
+    margin-bottom: 5px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .mailing-list-caption {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+@media only screen and (min-width: 920px) {
+  .mailing-list-text {
+    float:left;
+    width: 75%;
+  }
+
+  .mailing-list-form {
+    width: 40%;
+  }
+}

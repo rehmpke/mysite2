@@ -1,0 +1,76 @@
+.global-content { padding-top: 0; }
+
+.global-content.with-padding { padding-top: 25px; }
+
+.global-header {
+  background-color: $white;
+  font-family: "Source Sans Pro", Verdana, sans-serif;
+  position: relative;
+  z-index: 2;
+}
+@media only screen and (min-width: 768px) {
+  .global-header.transparent {
+    background-color: transparent;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .global-header.dark-bg {
+    background-color: transparent;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 30px, rgba(0, 0, 0, 0.75) 100%);
+  }
+}
+@media only screen and (min-width: 768px) {
+  .global-header.light-bg {
+    background-color: transparent;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.35) 25px, rgba(255, 255, 255, 0.6) 100%);
+  }
+}
+@media only screen and (min-width: 768px) {
+  .global-header.alt {
+    min-height: 50px;
+  }
+}
+.global-header.microsite .microsite-cta {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .global-header.microsite .microsite-cta {
+    display: inline-block;
+    margin-top: 15px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .global-header.microsite {
+    min-height: 60px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .global-header.transparent + #tabs {
+    margin-top: 84px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .global-nav {
+    padding-top: 15px;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+  .global-nav {
+    padding-top: 10px;
+  }
+}
+@media only screen {
+  .global-nav {
+    padding-top: 0;
+  }
+}
+.global-header.alt .global-nav {
+  padding-bottom: 0;
+  height: auto;
+}
+@media only screen and (min-width: 480px) {
+  .global-header.alt .global-nav {
+    padding-top: 50px;
+  }
+}

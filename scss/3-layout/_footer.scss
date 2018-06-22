@@ -1,0 +1,79 @@
+.global-footer {
+  font-family: "Source Sans Pro", Verdana, sans-serif;
+  line-height: 20px;
+}
+.global-footer a:hover {
+  color: #999999;
+}
+
+
+.footer-site-map {
+  color: $text-color;
+  background-color: #F7F7F7;
+  font-size: 15px;
+  padding: 0 0;
+}
+@media screen and (max-width: 800px) and (min-width: 481px) {
+  .footer-site-map {
+    padding: 0 0 30px;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .footer-site-map {
+    padding: 50px 0 30px;
+  }
+}
+
+.footer-site-map h5 {
+  color: $text-color;
+}
+.footer-site-map a {
+  color: #ccc;
+}
+
+
+.footer-nav {
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .global-footer.microsite .footer-nav {
+    text-align: center;
+  }
+}
+.footer-nav li {
+  list-style-type: none;
+  line-height: 25.5px;
+}
+
+.footer-copyright {
+  color: #d4d4d4;
+  background-color: #F7F7F7;
+  font-size: 13px;
+  padding: 25px 0;
+}
+.footer-copyright a {
+  color: $text-color;
+}
+@media only screen and (min-width: 480px) {
+  .footer-copyright a {
+    display: block;
+  }
+}
+@media only screen and (min-width: 601px) {
+  .footer-copyright a {
+    display: inline-block;
+    margin-left: 5px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-copyright-links {
+    display: block;
+  }
+  .footer-copyright-links a {
+    display: block;
+  }
+}

@@ -1,0 +1,77 @@
+.hero-shot {
+  color: $text-secondary-color;
+  background-color: #83CDE5;
+  //background-image: url('#{$imagedir}photo-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background: linear-gradient(to left, #7b4397, #dc2430);
+}
+
+
+@media (max-width: 481px) {
+  .hero-shot {
+    min-height: 250px;
+    color: $text-secondary-color;
+    background-color: #83CDE5;
+    //background-image: url('#{$imagedir}photo-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+  .hero-shot h2{
+    float:right;
+    background-repeat: no-repeat;
+    //background-image: url('#{$imagedir}graphic.svg');
+    background-size: 51%;
+    background-position: 48px -6px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .hero-shot {
+    min-height: 400px;
+    color: $text-secondary-color;
+    background-color: #83CDE5;
+    //background-image: url('#{$imagedir}photo-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+  .hero-shot h2{
+    float:right;
+    margin-right:80px;
+    font-size: 36px;
+    font-family: $secondaryfont-stack;
+  }
+  .hero-shot h2 span {
+    font-size: 80px;
+    font-family: $secondaryfont-stack;
+    line-height: 1.0em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-shot h2{
+    background-size: 80%;
+    background-position: 73px 51px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .hero-shot h2{
+    background-size: 60%;
+    background-position: 20px 108px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .hero-shot h2{
+    background-position: 81px 108px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .hero-shot h2{
+    background-position: 127px 108px;
+  }
+}
