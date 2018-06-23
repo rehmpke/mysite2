@@ -105,8 +105,8 @@ h5 {
   }
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-    font-weight: 200;
+    font-family: $secondaryfont-stack;
+    font-weight: 600;
     letter-spacing: 1px;
 }
 strong {

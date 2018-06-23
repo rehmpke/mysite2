@@ -1,10 +1,10 @@
 //fall back font stack for site
-$basefont-stack: Arial, "Helvetica Neue", Helvetica, sans-serif;
+$basefont-stack: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 $base-font-size: 18px;
-$secondaryfont-stack: "Open Sans", sans-serif;
+$secondaryfont-stack: 'Roboto Slab', serif;
 
 //Image path for most of global style sheet
-$imagedir:'/assets/img/';
+$imagedir:'../img/';
 
 //Theme colors
 $primary-color: #17beec;
