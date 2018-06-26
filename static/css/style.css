@@ -232,7 +232,7 @@ a {
   outline: 0 !important; }
 
 a:hover {
-  color: #11819d; }
+  color: #3b4874; }
 
 .row.space-top {
   padding-top: 25px; }
@@ -320,8 +320,7 @@ a:hover {
   color: #999999; }
 
 .footer-site-map {
-  color: #727272;
-  background-color: #F7F7F7;
+  color: #3b4874;
   font-size: 15px;
   padding: 0 0; }
 
@@ -337,7 +336,7 @@ a:hover {
   color: #727272; }
 
 .footer-site-map a {
-  color: #ccc; }
+  color: #3b4874; }
 
 .footer-nav {
   margin-left: 0;
@@ -358,7 +357,7 @@ a:hover {
   padding: 25px 0; }
 
 .footer-copyright a {
-  color: #727272; }
+  color: #3b4874; }
 
 @media only screen and (min-width: 480px) {
   .footer-copyright a {
@@ -532,7 +531,7 @@ a:hover {
 .hero-shot {
   color: #fff;
   background-color: #83CDE5;
-  background: linear-gradient(to left, #7b4397, #dc2430);
+  background: linear-gradient(to left, #3b4874, #dc2430);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
