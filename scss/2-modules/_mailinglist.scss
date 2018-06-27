@@ -36,9 +36,6 @@
 }
 
 @media only screen {
-  .mailing-list {
-    text-align: center;
-  }
 
   .mailing-list-form {
     margin-top: 10px;
@@ -97,4 +94,9 @@
   .mailing-list-form {
     width: 40%;
   }
+}
+
+.mailing-list label {
+  font-size: 13px;
+  padding-left: 13px;
 }

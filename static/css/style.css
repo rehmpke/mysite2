@@ -157,7 +157,7 @@ button, .button {
   display: inline-block;
   padding: 5px 10px;
   margin: 0 0 0;
-  color: #3090B3 !important;
+  color: white;
   font-family: "Source Sans Pro", Verdana, sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -491,8 +491,6 @@ a:hover {
   line-height: 25.5px; }
 
 @media only screen {
-  .mailing-list {
-    text-align: center; }
   .mailing-list-form {
     margin-top: 10px; } }
 
@@ -532,6 +530,10 @@ a:hover {
     width: 75%; }
   .mailing-list-form {
     width: 40%; } }
+
+.mailing-list label {
+  font-size: 13px;
+  padding-left: 13px; }
 
 .hero-shot {
   color: #fff;
