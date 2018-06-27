@@ -57,7 +57,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div data-alert class="alert-box alert radius" class="browsehappy">Please <a href="http://browsehappy.com/">upgrade your browser</a>. <a href="#" class="close">&times;</a></div>
         <![endif]-->
 
-    <header id="header" class="global-header">
+    <header id="header" class="global-header container">
       <div class="row">
         <div class="col col-sm-12">
 
@@ -71,9 +71,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
         <section class="hero-shot container-extended">
+          <div class="container">
           <div class="row space-top space-bottom double">
               <div class="col col-lg-4 col-md-4">
-                <img src="./static/img/roger.jpg" alt="Roger Ehmpke's photo" style="border-radius: 50%;border-width: 7px;border-style: solid;border-color: white;margin:0 auto;"/>
+                <img src="./static/img/roger.jpg" alt="Roger Ehmpke's photo" style="border-radius: 50%;border-width: 5px;border-style: solid;border-color: white;margin:0 auto;"/>
               </div>
               <div class="col large-8 medium-8">
               <h2>Frontend Web Developer</h2>
@@ -82,6 +83,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <p>I live in Kankakee Illinois. I enjoy music, oil painting, and single malt whiskey.</p>
                 <p>Contact me or reach out via LinkedIn or send an email.</p>
               </div>
+          </div>
           </div>
         </section>
         <section id="why">
@@ -128,17 +130,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="row">
               <div class="col text-center">
                 <form action="https://formspree.io/rehmpke@email.com" method="POST" style="max-width:420px;margin:0 auto;">
-                  <div class="text-center mb-4">
-                  <h2 style="color:#333333;">Contact</h2>
-                  <p style="color:#333333;">Contact me to discuss web development opportunities. I look forward to hearing from you!</p>
-                  </div>
-                  <label for="name">Name: <span class="required">*</span></label>
+                   <div class="form-group">
+                   <label for="name">Name: <span class="required">*</span></label>
                   <input type="text" name="name" id="name" placeholder="Name">
+                  </div>
+                  <div class="form-group">
                   <label for="email">Email Address: <span class="required">*</span></label>
                   <input type="email" name="_replyto" id="email" placeholder="Email">
+                </div>
+                <div class="form-group">
                   <label for="message">Message: <span class="required">*</span></label>
                   <textarea name="message" id="message" placeholder="Write a message"></textarea>
-                  <input type="submit" value="Send">
+                  <input type="submit"  class="btn btn-primary" value="Send">
+                </div>
                 </form>
               </div>
             </div>
@@ -148,8 +152,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="footer-site-map">
             <div class="row">
               <div class="col-md-12 col-lg-12 col text-center"><a href="https://www.rogerehmpke.com" class="logo--footer">Roger Ehmpke</a>
-                <p>Web, Graphic and User Interface Designer<a alt="Twitter @ rehmpke" href="http://twitter.com/rehmpke" class="social-sharing-icon white" style="color:rgb(29, 161, 242);"><i class="fa fa-twitter"></i></a>
-                <a alt="LinkedIn" href="https://www.linkedin.com/in/rogerehmpke" class="social-sharing-icon white" style="color:rgb(0, 119, 181)"><i class="fa fa-linkedin"></i></a></p>
+                <p>Web, Graphic and User Interface Designer<a title="Twitter" aria-label="Twitter" href="http://twitter.com/rehmpke" class="social-sharing-icon white" style="color:rgb(29, 161, 242);"><i class="fa fa-twitter"></i></a>
+                <a title="LinkedIn" aria-label="LinkedIn" href="https://www.linkedin.com/in/rogerehmpke" class="social-sharing-icon white" style="color:rgb(0, 119, 181)"><i class="fa fa-linkedin"></i></a></p>
                 <p>© 2018 <a href="https://www.rogerehmpke.com">Roger Ehmpke</a> | <span class="footer-copyright-links"><span class="footer-copyright-links"><a href="/contact-me">Contact Me</a></span></span></p>
                 <ul class="inline-list">
                     <li></li>
