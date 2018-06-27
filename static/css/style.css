@@ -222,6 +222,10 @@ button.tiny, .button.tiny {
   font-size: 18px;
   font-size: 13px; }
 
+.btn-primary {
+  background-color: #3b4874;
+  border-color: #3b4874; }
+
 a {
   color: #3090B3;
   -moz-transition: color 0.15s;
