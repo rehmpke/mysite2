@@ -469,7 +469,8 @@ a:hover {
     margin-left: -30px; } }
 
 .mailing-list {
-  padding: 25px 0;
+  padding-bottom: 25px;
+  padding-top: 25px;
   font-family: "Source Sans Pro", Verdana, sans-serif;
   color: #555555;
   background: #fdcc52;
