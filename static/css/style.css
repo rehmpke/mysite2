@@ -542,8 +542,6 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
-  display: block;
-  width: 100%;
   height: 300%; }
 
 @media (max-width: 481px) {
