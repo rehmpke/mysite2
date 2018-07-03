@@ -1,89 +1,9 @@
-button, .button {
-  position: relative;
-  display: inline-block;
-  padding: 5px 10px;
-  margin: 0 0 0;
-  color: white;
-  font-family: "Source Sans Pro", Verdana, sans-serif;
-  font-size: $base-font-size;
-  font-weight: 400;
-  line-height: normal;
-  text-decoration: none !important;
-  text-align: center;
+.btn-primary {
   background-color: $button-colour;
   border-color: $button-colour;
-  border-style: solid;
-  border-width: 0px;
-  -webkit-appearance: none;
-  -webkit-border-radius: 0;
-  border-radius: 3px;
-  cursor: pointer;
-  outline: 0;
-  transition: background-color 300ms ease-out;
-}
-
-button i, .button i { vertical-align: middle; }
-
-
-.Button--muted {
-  background-color: $white;
-  /*color: $c-brand;*/
-  color: #0081a1;
-}
-
-.Button--muted:hover,
-.Button--muted:focus {
-  color: $text-secondary-color;
-  background-color: #0192B5;
-}
-
-.Button--alternate {
-  background-color: #19c2ed;
-  color: $text-secondary-color;
-}
-.Button--alternate:hover,
-.Button--alternate:focus {
-  color: $text-secondary-color;
-  background-color: #0192B5;
-}
-
-.Button--disabled {
-  background-color: #f3f2f2;
-}
-
-.Button--disabled:hover {
-  background-color: #f3f2f2;
-}
-
-button.xlarge, .button.xlarge {
-  padding: 5px 20px;
-  font-size: 24px;
-}
-
-button.large, .button.large {
-  /* padding: 5px; */
-  font-size: 19px;
-  font-size: 19px;
-}
-
-button.small, .button.small {
-  padding: 5px 10px;
-  font-size: $base-font-size;
-  font-size: 15px;
-}
-
-button.tiny, .button.tiny {
-  padding: 5px 10px;
-  font-size: $base-font-size;
-  font-size: 13px;
-}
-
-.btn-primary {
-  background-color: #3b4874;
-  border-color: #3b4874;
 }
 
 .btn-primary:hover {
-  background-color: #813a59;
-  border-color: #813a59;
+  background-color: $button-hover-colour;
+  border-color: $button-hover-colour;
 }
