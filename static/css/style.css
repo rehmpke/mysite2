@@ -226,6 +226,10 @@ button.tiny, .button.tiny {
   background-color: #3b4874;
   border-color: #3b4874; }
 
+.btn-primary:hover {
+  background-color: #813a59;
+  border-color: #813a59; }
+
 a {
   color: #3090B3;
   -moz-transition: color 0.15s;
