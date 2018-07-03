@@ -382,38 +382,6 @@ a:hover {
 .global-header a {
   color: #404040; }
 
-@media only screen and (max-width: 425px) {
-  .mam {
-    margin-left: 0.1em !important;
-    margin-right: 0.1em !important; }
-  .inline-list > li {
-    margin-left: 0.10rem; } }
-
-.logo--footer {
-  position: relative;
-  top: -20px;
-  left: -25px;
-  display: block;
-  height: 25px;
-  width: 333px;
-  margin: 10px 0 0 20px;
-  background-size: cover;
-  text-indent: -9999px;
-  overflow: hidden; }
-
-@media screen and (max-width: 481px) {
-  .logo--footer {
-    left: -24px;
-    height: 25px;
-    width: 298px;
-    margin-bottom: 0;
-    text-align: center; } }
-
-@media screen and (max-width: 800px) and (min-width: 481px) {
-  .logo--footer {
-    left: -27px;
-    margin-bottom: 0; } }
-
 .social-sharing {
   text-align: center; }
 
