@@ -123,7 +123,7 @@ em {
 
 .caption, .article-text figcaption {
   color: #76736c;
-  font-family: "Source Sans Pro", Verdana, sans-serif;
+  font-family: $basefont-stack;
   font-size: 14px;
   line-height: 20px;
   margin: 5px 0 12.5px 0;
@@ -132,14 +132,14 @@ em {
   color: #d4d4d4;
 }
 .caption.dark, .article-text figcaption.dark {
-  color: #262626;
+  color: $black;
 }
 .caption.centered, .article-text figcaption.centered {
   text-align: center;
 }
 
 small {
-  font-family: "Source Sans Pro", Verdana, sans-serif;
+  font-family: $basefont-stack
   font-size: 15px;
   line-height: 20px;
 }

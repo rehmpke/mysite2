@@ -1,5 +1,5 @@
 .global-footer {
-  font-family: "Source Sans Pro", Verdana, sans-serif;
+  font-family: $basefont-stack;
   line-height: 20px;
 }
 .global-footer a:hover {
@@ -8,7 +8,7 @@
 
 
 .footer-site-map {
-  color: #3b4874;
+  color: $link-colour;
   font-size: 15px;
   padding: 0 0;
 }
@@ -28,7 +28,7 @@
   color: $text-color;
 }
 .footer-site-map a {
-  color: #3b4874;
+  color: $link-colour;
   font-weight: bold;
 }
 

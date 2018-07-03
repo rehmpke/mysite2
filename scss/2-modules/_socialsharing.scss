@@ -9,7 +9,7 @@
 .white.social-sharing-caption, .white.social-sharing-icon { color: $text-color; }
 
 .social-sharing-caption {
-  font-family: "Source Sans Pro", Verdana, sans-serif;
+  font-family: $basefont-stack;
   font-size: 24px;
   vertical-align: middle;
 }

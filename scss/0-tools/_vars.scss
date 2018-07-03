@@ -1,5 +1,5 @@
 //fall back font stack for site
-$basefont-stack: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+$basefont-stack: 'Source Sans Pro', Verdana, sans-serif;
 $base-font-size: 18px;
 $secondaryfont-stack: 'Roboto Slab', serif;
 
@@ -24,10 +24,10 @@ $grey-7: #F2F2F2;
 $white: #fff;
 
 // Semantic colour names
-$link-colour: $accent-blue;
-$link-active-colour: $accent-blue;
-$link-hover-colour: $accent-blue-bright;
-$link-visited-colour: $accent-blue;
+$link-colour: $primary-color;
+$link-active-colour: $primary-color;
+$link-hover-colour: $grey-3;
+$link-visited-colour: $grey-2;
 $button-colour: $primary-color;
 $button-hover-colour: $secondary-color;
 $body-text: $grey-1;

@@ -4,7 +4,7 @@
 
 .global-header {
   background-color: $white;
-  font-family: "Source Sans Pro", Verdana, sans-serif;
+  font-family: $basefont-stack;
   position: relative;
   z-index: 2;
 }
