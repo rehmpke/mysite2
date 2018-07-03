@@ -24,56 +24,7 @@
   }
 }
 
-.footer-site-map h5 {
-  color: $text-color;
-}
 .footer-site-map a {
   color: $link-colour;
   font-weight: bold;
-}
-
-
-.footer-nav {
-  margin-left: 0;
-  margin-bottom: 0;
-}
-
-@media only screen and (max-width: 600px) {
-  .global-footer.microsite .footer-nav {
-    text-align: center;
-  }
-}
-.footer-nav li {
-  list-style-type: none;
-  line-height: 25.5px;
-}
-
-.footer-copyright {
-  color: #d4d4d4;
-  background-color: #F7F7F7;
-  font-size: 13px;
-  padding: 25px 0;
-}
-.footer-copyright a {
-  color: #3b4874;
-}
-@media only screen and (min-width: 480px) {
-  .footer-copyright a {
-    display: block;
-  }
-}
-@media only screen and (min-width: 601px) {
-  .footer-copyright a {
-    display: inline-block;
-    margin-left: 5px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .footer-copyright-links {
-    display: block;
-  }
-  .footer-copyright-links a {
-    display: block;
-  }
 }

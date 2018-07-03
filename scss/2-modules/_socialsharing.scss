@@ -6,15 +6,13 @@
   .social-sharing.align-left { text-align: left; }
 }
 
-.white.social-sharing-caption, .white.social-sharing-icon { color: $text-color; }
+.social-sharing-icon.white { color: #ff0000; }
 
 .social-sharing-caption {
   font-family: $basefont-stack;
   font-size: 24px;
   vertical-align: middle;
 }
-
-.social-sharing-caption.small { font-size: $base-font-size; }
 
 @media only screen and (max-width: 600px) {
   .social-sharing-caption:not(.small) {
