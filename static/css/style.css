@@ -287,7 +287,9 @@ a:hover {
     text-align: left; } }
 
 .social-sharing-icon.white {
-  color: #ff0000; }
+  color: #813a59; }
+  .social-sharing-icon.white :hover {
+    color: #3b4874; }
 
 .social-sharing-caption {
   font-family: "Source Sans Pro", Verdana, sans-serif;
