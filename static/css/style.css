@@ -270,48 +270,9 @@ a:hover {
   .footer-site-map {
     padding: 50px 0 30px; } }
 
-.footer-site-map h5 {
-  color: #727272; }
-
 .footer-site-map a {
   color: #3b4874;
   font-weight: bold; }
-
-.footer-nav {
-  margin-left: 0;
-  margin-bottom: 0; }
-
-@media only screen and (max-width: 600px) {
-  .global-footer.microsite .footer-nav {
-    text-align: center; } }
-
-.footer-nav li {
-  list-style-type: none;
-  line-height: 25.5px; }
-
-.footer-copyright {
-  color: #d4d4d4;
-  background-color: #F7F7F7;
-  font-size: 13px;
-  padding: 25px 0; }
-
-.footer-copyright a {
-  color: #3b4874; }
-
-@media only screen and (min-width: 480px) {
-  .footer-copyright a {
-    display: block; } }
-
-@media only screen and (min-width: 601px) {
-  .footer-copyright a {
-    display: inline-block;
-    margin-left: 5px; } }
-
-@media only screen and (max-width: 600px) {
-  .footer-copyright-links {
-    display: block; }
-  .footer-copyright-links a {
-    display: block; } }
 
 .global-header a {
   color: #404040; }
@@ -325,16 +286,13 @@ a:hover {
   .social-sharing.align-left {
     text-align: left; } }
 
-.white.social-sharing-caption, .white.social-sharing-icon {
-  color: #727272; }
+.social-sharing-icon.white {
+  color: #ff0000; }
 
 .social-sharing-caption {
   font-family: "Source Sans Pro", Verdana, sans-serif;
   font-size: 24px;
   vertical-align: middle; }
-
-.social-sharing-caption.small {
-  font-size: 18px; }
 
 @media only screen and (max-width: 600px) {
   .social-sharing-caption:not(.small) {
@@ -385,57 +343,8 @@ a:hover {
 
 .hero-shot {
   color: #fff;
-  background-color: #83CDE5;
   background: linear-gradient(to left, #3b4874, #dc2430);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
   height: 300%; }
-
-@media (max-width: 481px) {
-  .hero-shot {
-    min-height: 250px;
-    color: #fff;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center; }
-  .hero-shot h2 {
-    float: right;
-    background-repeat: no-repeat;
-    background-size: 51%;
-    background-position: 48px -6px; } }
-
-@media screen and (min-width: 481px) and (max-width: 1024px) {
-  .hero-shot {
-    min-height: 400px;
-    color: #fff;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center; }
-  .hero-shot h2 {
-    float: right;
-    margin-right: 80px;
-    font-size: 36px;
-    font-family: "Roboto Slab", serif; }
-  .hero-shot h2 span {
-    font-size: 80px;
-    font-family: "Roboto Slab", serif;
-    line-height: 1.0em; } }
-
-@media only screen and (min-width: 768px) {
-  .hero-shot h2 {
-    background-size: 80%;
-    background-position: 73px 51px; } }
-
-@media only screen and (max-width: 425px) {
-  .hero-shot h2 {
-    background-size: 60%;
-    background-position: 20px 108px; } }
-
-@media only screen and (max-width: 375px) {
-  .hero-shot h2 {
-    background-position: 81px 108px; } }
-
-@media only screen and (max-width: 320px) {
-  .hero-shot h2 {
-    background-position: 127px 108px; } }
