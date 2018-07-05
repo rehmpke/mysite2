@@ -1,5 +1,10 @@
 {
+  "name": "RogerEhmpke",
   "short_name": "Roger E.",
+  "start_url": ".",
+  "display": "browser",
+  "background_color": "#fff",
+  "description": "Roger Ehmpke - Frontend Web Developer website.",
   "theme_color": "#3b4874",
   "icons": [{
     "src": "/img/homescreen48.png",
