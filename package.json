@@ -4,7 +4,12 @@
   "description": "Roger Ehmpke portfolio site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "browser-sync start --server --files './static/css/*.css'",
+    "scss": "node-sass --output-style compressed -o ./static/css ./scss",
+    "build:css": "run-s scss",
+    "watch:css": "onchange \"./scss\" -- run-s build:css",
+    "watch": "run-p serve watch:*"
   },
   "author": "",
   "license": "MIT",
@@ -13,8 +18,9 @@
     "express": "^4.16.2"
   },
   "devDependencies": {
-    "browser-sync": "^2.24.4",
-    "gulp": "^3.9.1",
-    "gulp-sass": "^4.0.1"
+    "browser-sync": "^2.26.3",
+    "node-sass": "^4.11.0",
+    "npm-run-all": "^4.1.5",
+    "onchange": "^5.2.0"
   }
 }
