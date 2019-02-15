@@ -6,11 +6,11 @@
   .social-sharing.align-left { text-align: left; }
 }
 
-.social-sharing-icon.white { 
-  color: $secondary-color; 
+.social-sharing-icon.white {
+  fill: $secondary-color;
 
   :hover {
-    color: $primary-color;
+    fill: $primary-color;
   }
 }
 
