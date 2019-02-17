@@ -12,6 +12,9 @@ $secondary-color: #813a59;
 $accent-1: #fdcc52;        // used in all links and link buttons;
 $accent-2: #dc2430;
 
+//accent-1 darkened
+$accent-1-darkened: #fcbd20;
+
 // Standard palette, greys
 $black: #000;
 $grey-1: #404040;
@@ -40,4 +43,5 @@ $canvas-colour: $grey-4;             // Page background
 //$page-colour: $white;              // The page
 
 $divider-color: $grey-5;
-$hero-links: $accent-1;
+$hero-links-colour: $accent-1;
+$hero-links-hover-colour: $accent-1-darkened;
