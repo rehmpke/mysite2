@@ -1,14 +1,14 @@
 const express = require('express');
 const app = express();
 
+const routes = require('./routes');
+
 app.listen(3001);
 
 /** ROUTES **/
 
 app.use('/static', express.static('static'));
 
-app.get('/', (req, res) => {
-  res.sendFile('./about.html', {root: __dirname});
-});
+app.use('/', routes());
 
 module.export = app;

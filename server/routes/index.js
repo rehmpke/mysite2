@@ -1,8 +1,10 @@
-import { Module } from "module";
-
-const express = requires('express');
+const express = require('express');
 const router = express.Router();
 
 module.exports = () => {
-  router.
-}
+  router.get('/', (req, res, next) => {
+    return res.send('Index');
+  });
+
+  return router;
+};
