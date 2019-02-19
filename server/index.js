@@ -8,7 +8,7 @@ app.listen(3001);
 app.use('/static', express.static('static'));
 
 app.get('/', (req, res) => {
-  res.sendFile('about.html', {root: __dirname});
+  res.sendFile('./about.html', {root: __dirname});
 });
 
 module.export = app;
