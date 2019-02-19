@@ -5,7 +5,7 @@ const routes = require('./routes');
 
 /** ROUTES **/
 
-app.use('/static', express.static('static'));
+app.use(express.static('static'));
 
 app.use('/', routes());
 
