@@ -5,7 +5,7 @@ const projectsRoute = require('./projects');
 
 module.exports = () => {
   router.get('/', (req, res, next) => {
-    return res.send('Index');
+    return res.render('index');
   });
 
   router.use('/projects', projectsRoute());
