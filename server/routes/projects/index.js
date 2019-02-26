@@ -3,11 +3,11 @@ const router = express.Router();
 
 module.exports = () => {
   router.get('/', (req, res, next) => {
-    return res.send('All Projects');
+    return res.render('projects');
   });
 
   router.get('/:project', (req, res, next) => {
-    return res.send(`Project detail page for ${req.params.project}`);
+    return res.render('projects/project');
   });
 
   return router;

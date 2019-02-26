@@ -19,7 +19,7 @@ head
   // Bootstrap 4 Beta stylesheet CDN link
   link(href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css', rel='stylesheet', integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T', crossorigin='anonymous')
   link(href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700', rel='stylesheet')
-  link(rel='stylesheet', type='text/css', href='./css/style.css')
+  link(rel='stylesheet', type='text/css', href='../css/style.css')
   link(rel='shortcut icon', href='favicon.ico')
   link(rel='manifest', href='./manifest.json')
   meta(property='og:title', content='Roger Ehmpke - Frontend Web Developer')
@@ -48,6 +48,7 @@ noscript
         .col
           h1
             a.logo--header(href='https://www.rogerehmpke.com') Roger Ehmpke
+    include includes/hero
     block content
     footer.global-footer(role='contentinfo')
       .footer-site-map
@@ -98,8 +99,4 @@ noscript
             p
               | &copy; 2019
               a(href='https://www.rogerehmpke.com') Roger Ehmpke
-//
-  Loading JavaScripts
-  ==================================================
-script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js', integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=', crossorigin='anonymous')
-script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM', crossorigin='anonymous')
+include includes/scripts
