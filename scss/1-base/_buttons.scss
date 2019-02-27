@@ -1,9 +1,16 @@
 .btn-primary {
   background-color: $button-colour;
-  border-color: $button-colour;
+  border-color: #242c47;
+  border-radius: 0;
+  border-width: 10px;
+  color: #242c47;
 }
 
 .btn-primary:hover {
   background-color: $button-hover-colour;
   border-color: $button-hover-colour;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+  font-size: 20px;
 }
