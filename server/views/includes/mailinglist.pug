@@ -1,0 +1,18 @@
+aside#ContactMe.mailing-list.container-fluid
+  .row.align-items-center.justify-content-center
+    .col-lg-4.col-md-4
+      form(action='https://formspree.io/roger@rogerehmpke.com', method='POST', style='margin:0 auto;')
+        .text-center.mb-4
+          h2(style='color:#333333;') Contact
+          p(style='color:#333333;')
+            | Contact me to discuss web development opportunities. I look forward to hearing from you!
+        .form-group
+          input#name.form-control(type='text', name='name', placeholder='Name', required='')
+          label(for='name') Name
+        .form-group
+          input#email.form-control(type='email', name='_replyto', placeholder='Email', required='')
+          label(for='email') Email Address
+        .form-group
+          textarea#message.form-control(name='message', placeholder='Write a message')
+          label(for='message') Message
+        button.btn.btn-lg.btn-primary.btn-block(type='submit') Send
