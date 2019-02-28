@@ -5,7 +5,7 @@
   "main": "./server/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "browser-sync start --server --files './static/css/*.css'",
+    "serve": "browser-sync start --server --files './static/*'",
     "scss": "node-sass --output-style compressed -o ./static/css ./scss",
     "build:css": "run-s scss",
     "watch:css": "onchange \"./scss\" -- run-s build:css",
