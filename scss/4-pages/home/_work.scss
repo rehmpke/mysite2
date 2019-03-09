@@ -47,15 +47,11 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 55px;
+  padding: 6px;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 50%;
-}
-
-.buttonlink {
   margin: 0 auto;
-  padding: 0 0;
   text-align: center;
+  width: 50%;
 }
