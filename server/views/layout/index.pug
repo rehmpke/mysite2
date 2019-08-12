@@ -1,49 +1,50 @@
 doctype html
 html(lang="en")
-head
-  meta(charset='utf-8')
-  meta(http-equiv='X-UA-Compatible', content='IE=edge')
-  title Roger Ehmpke - Frontend Web Developer - Roger Ehmpke
-  meta(name='description', content='Roger Ehmpke, Frontend Web Developer')
-  meta(name='viewport', content='width=device-width, initial-scale=1')
-  meta(name='keywords', content='Roger Ehmpke, Web, Web Developer, UI, Front End Developer, Web Designer')
-  meta(name='theme-color', content='#3b4874')
-  // Google Tag Manager
-  script.
-    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-T38CTSL');
-  // End Google Tag Manager
-  // Bootstrap 4 Beta stylesheet CDN link
-  link(href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css', rel='stylesheet', integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T', crossorigin='anonymous')
-  link(href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700', rel='stylesheet')
-  link(rel='stylesheet', type='text/css', href='../css/style.css')
-  link(rel='shortcut icon', href='favicon.ico')
-  link(rel='manifest', href='./manifest.json')
-  meta(property='og:title', content='Roger Ehmpke - Frontend Web Developer')
-  meta(property='og:site_name', content=' - Roger Ehmpke')
-  meta(property='og:url', content=' - https://www.rogerehmpke.com')
-  meta(property='og:description', content='Roger Ehmpke, Frontend Web Developer')
-  meta(name='twitter:card', content='summary')
-  meta(name='twitter:site', content='@http://twitter.com/rehmpke')
-  meta(name='twitter:title', content='Roger Ehmpke - Frontend Web Developer')
-  meta(name='twitter:description', content='Roger Ehmpke, Frontend Web Developer')
-// Google Tag Manager (noscript)
-noscript
-  iframe(src='https://www.googletagmanager.com/ns.html?id=GTM-T38CTSL', height='0', width='0', style='display:none;visibility:hidden')
-// End Google Tag Manager (noscript)
-.off-canvas-wrap(data-offcanvas='')
-  .inner-wrap
-    // Add header and nav here
-    //if lt IE 8
-      .alert-box.alert.radius(data-alert='')
-        | Please
-        a(href='http://browsehappy.com/') upgrade your browser
-        | .
-        a.close(href='#') &times;
-    include includes/hero
-    block content
-    include includes/footer
-include includes/scripts
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    title Roger Ehmpke - Frontend Web Developer - Roger Ehmpke
+    meta(name='description', content='Roger Ehmpke, Frontend Web Developer')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='keywords', content='Roger Ehmpke, Web, Web Developer, UI, Front End Developer, Web Designer')
+    meta(name='theme-color', content='#3b4874')
+    // Google Tag Manager
+    script.
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-T38CTSL');
+    // End Google Tag Manager
+    // Bootstrap 4 Beta stylesheet CDN link
+    link(href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css', rel='stylesheet', integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T', crossorigin='anonymous')
+    link(href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700', rel='stylesheet')
+    link(rel='stylesheet', type='text/css', href='../css/style.css')
+    link(rel='shortcut icon', href='favicon.ico')
+    link(rel='manifest', href='./manifest.json')
+    meta(property='og:title', content='Roger Ehmpke - Frontend Web Developer')
+    meta(property='og:site_name', content=' - Roger Ehmpke')
+    meta(property='og:url', content=' - https://www.rogerehmpke.com')
+    meta(property='og:description', content='Roger Ehmpke, Frontend Web Developer')
+    meta(name='twitter:card', content='summary')
+    meta(name='twitter:site', content='@http://twitter.com/rehmpke')
+    meta(name='twitter:title', content='Roger Ehmpke - Frontend Web Developer')
+    meta(name='twitter:description', content='Roger Ehmpke, Frontend Web Developer')
+  body
+    // Google Tag Manager (noscript)
+    noscript
+      iframe(src='https://www.googletagmanager.com/ns.html?id=GTM-T38CTSL', height='0', width='0', style='display:none;visibility:hidden')
+    // End Google Tag Manager (noscript)
+    .off-canvas-wrap(data-offcanvas='')
+      .inner-wrap
+        // Add header and nav here
+        //if lt IE 8
+          .alert-box.alert.radius(data-alert='')
+            | Please
+            a(href='http://browsehappy.com/') upgrade your browser
+            | .
+          a.close(href='#') &times;
+      include includes/hero
+      block content
+      include includes/footer
+    include includes/scripts
